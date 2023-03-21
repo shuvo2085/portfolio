@@ -1,0 +1,298 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal ;
+    
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-start;
+    background: linear-gradient( rgb(20, 208, 255),blue);
+    padding: 5.5rem;
+}
+section{
+    padding: 1rem 7%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.5;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube{
+    background:#3B5998 ;
+    color:#eee;
+  }
+
+.btn{
+ font-size: 2rem;
+ padding:.7rem 4rem;
+ background-color: rgba(255,255,255,.2);
+ color:#fff;
+ border-radius:1rem;
+ box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+ margin-top:1rem;
+ cursor:pointer;
+ transition:.2s liner;;
+
+}
+
+.btn:hover{
+    background:  rgba(255,255,255,.2);
+    color:#555;
+
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding:1rem;
+    color:#fff;
+}
+
+header{
+    width: 30rem;
+    background-color: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+header .user{
+    padding-top: 2rem;
+
+}
+
+header .user img{
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+
+}
+header .user .name{
+    font-size:3rem;
+    color: #fff;
+    padding:.5rem 0;
+
+}
+
+header .user .post{
+    font-size: 2rem;
+    color: #eee;
+    padding:.5rem 0;
+    font-weight:lighter;
+}
+header .navbar{
+    padding: 1rem 2rem;
+
+}
+header .navbar ul li{
+    margin: 2rem 0;
+    list-style: none;
+
+}
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    background:rgba(255,255,255,.2);
+    box-shadow:0 1rem 2rem rgba(0,0,0,.2);
+
+}
+header .navbar ul li a:hover{
+    background-color: rgba(255,255,255,.5);
+    color: #555;
+    
+}
+
+.container{
+    height: 65rem;
+    width: 90rem;
+    background-color: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 2rem;
+    overflow: hidden;
+
+}
+.Home{
+    min-height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-flow:column;
+    position:relative;
+    padding-bottom: 10rem;
+}
+
+.Home h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #eee;
+}
+
+.Home .post{
+    padding: 1rem 0;
+}
+.Home name span{
+    font-size:3rem;
+    color: #fff;
+}
+
+.About{
+    min-height: 100%;
+
+}
+.About .content h3{
+    font-size: 2.5rem;
+    color: #eee;
+
+}
+
+.About .content h3 span{
+    color: #fff;
+
+}
+.About .content p{
+    font-size: 2.5rem;
+    color: #eee;
+    padding: .5rem 0;
+}
+.About .Skills{
+    padding: 1rem o;
+
+}
+.About .Skills .Progress{
+    margin: 1.5rem 0;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255,255,255,.2);
+    border-radius: 1rem;
+}
+.Projects{
+    min-height: 100%;
+
+}
+.Projects .content{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: .5rem 0; 
+}
+.Projects .content .project{
+    margin: 1.5rem 0;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255,255,255,.2);
+    border-radius: 1rem;
+}
+.Education{
+    min-height: 100%;
+
+}
+.Education .box-container{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    
+}
+.Education .box-container .box{
+    width:30rem;
+    padding:0 2rem;
+    padding-bottom: 4rem;
+    border-left: .2rem solid #eee;
+
+}.Education .box-container .box .year{
+    font-size: 2rem;
+    color:red;
+
+}
+.Education .box-container .box h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+.Contact .row{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+
+
+}
+.Contact .row form{
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem;
+    flex-wrap: wrap;
+
+}
+.Contact .row form .box{
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    padding:0 1rem;
+    margin: 1rem 0;
+    height: 4rem;
+    width: 50%;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: none;
+
+
+}
+.Contact .row form .box::placeholder{
+    text-transform: capitalize;
+    color:#eee;
+
+}
+.Contact .row form .message{
+    padding: 1rem;
+    height: 15rem;
+    resize: none;
+    width:100%
+}
+
+
+
+
