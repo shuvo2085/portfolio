@@ -1,2 +1,2 @@
 # portfolio
-I develop the portfolio using HTML, CSS, JavaScript.
+I develop the portfolio using HTML, CSS .
